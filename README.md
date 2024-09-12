@@ -54,8 +54,8 @@ If the HLOS software has been signed with a default private key, and the issue i
 
 Otherwise, the tool returns a success message, take for instance the Pixel9 build: 
 
-$ python test_avb_key.py ./sample/vbmeta/pixel9/vbmeta.img ./sample/aosp/external/avb/test/data/
-Opening vbmeta file: ./sample/vbmeta/pixel9/vbmeta.img
+    $ python test_avb_key.py ./sample/vbmeta/pixel9/vbmeta.img ./sample/aosp/external/avb/test/data/
+    Opening vbmeta file: ./sample/vbmeta/pixel9/vbmeta.img
 
     Using known private key for verification: ./sample/aosp/external/avb/test/data/sign_key.pem. Public key not found in vbmeta.img file. That's good.
     Using known private key for verification: ./sample/aosp/external/avb/test/data/testkey_atx_pik.pem. Public key not found in vbmeta.img file. That's good.
